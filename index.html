@@ -285,7 +285,9 @@
                 <th>Date</th>
                 <th>Time Slots</th>
                 <th>Age</th>
-                <th>Available Capacity</th>
+		<th>Available Capacity</th>
+                <th>Dose 1 Available Capacity</th>		    
+                <th>Dose 2 Available Capacity</th>
             </tr>
             </thead>
             <tbody>
@@ -306,6 +308,8 @@
                 <th>Time Slots</th>
                 <th>Age</th>
                 <th>Available Capacity</th>
+                <th>Dose 1 Available Capacity</th>		    
+                <th>Dose 2 Available Capacity</th>
             </tr>
             </thead>
             <tbody>
@@ -407,6 +411,8 @@
                                                     ses[s].slots,
                                                     ses[s].min_age_limit,
                                                     ses[s].available_capacity,
+                                                    ses[s].available_capacity_dose1,
+                                                    ses[s].available_capacity_dose2,
                                                 ])
                                             } else {
                                                 eighteen.push([
@@ -417,6 +423,8 @@
                                                     ses[s].slots,
                                                     ses[s].min_age_limit,
                                                     ses[s].available_capacity,
+                                                    ses[s].available_capacity_dose1,
+                                                    ses[s].available_capacity_dose2,
                                                 ])
                                             }
 
